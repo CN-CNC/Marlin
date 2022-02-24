@@ -96,7 +96,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_RAMPS_14_EFB
+  #define MOTHERBOARD BOARD_YBOARD
 #endif
 
 /**
@@ -128,7 +128,7 @@
  * Currently Ethernet (-2) is only supported on Teensy 4.1 boards.
  * :[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-//#define SERIAL_PORT_2 -1
+#define SERIAL_PORT_2 -1
 //#define BAUDRATE_2 250000   // Enable to override BAUDRATE
 
 /**
@@ -2105,7 +2105,7 @@
  * SD Card support is disabled by default. If your controller has an SD slot,
  * you must uncomment the following option or it won't work.
  */
-//#define SDSUPPORT
+#define SDSUPPORT
 
 /**
  * SD CARD: ENABLE CRC
@@ -2508,7 +2508,7 @@
 //
 // SSD1306 OLED full graphics generic display
 //
-//#define U8GLIB_SSD1306
+#define U8GLIB_SSD1306
 
 //
 // SAV OLEd LCD module support using either SSD1306 or SH1106 based LCD modules
